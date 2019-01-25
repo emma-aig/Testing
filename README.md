@@ -1,4 +1,4 @@
-#Politico
+# Politico
 
 Politico is a web program created for the people of Nigeria for electoral purpose.
 In this web program, there are three different major actors (users) which consist of the following:
