@@ -7,18 +7,14 @@ body{
     background-color: rgb(241, 241, 241);
     font-family: sans-serif;
    }
-   #cover{
-    /* margin-top: 45%; */
-    display: none;
-    /* background-color: rgba(22, 10, 92, 0.5); */
+   #cover{ 
+    display: none; 
     background-color: rgba(0, 0, 0, 0.5);
    top: 0;
     width: 100vw;
     height: 100vh; 
     position: fixed;
-    z-index: 1;
-    /* opacity: .9; */
-    /* transition: background 0.2s linear 0.3s; */
+    z-index: 1; 
 
 }
 .landingCaptionPicture{ 
