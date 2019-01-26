@@ -1,0 +1,129 @@
+  a{
+    text-decoration: none;
+    color: #a8a8a8;
+}
+#showHideMenu{
+     display: none; 
+}
+ 
+
+header{ 
+    background-color: rgb(24, 23, 26);
+    color: #fff;
+    width: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    position: absolute;
+    height: 60px; 
+    z-index: 2;
+}
+.logo{
+    height: 95%;
+    margin-left: 5%;
+    margin-top: .2%;
+    position: absolute;
+}
+ 
+ul{ 
+    background-color: rgb(35, 35, 36); 
+    padding: 0px;
+    margin-bottom: 15px;  
+    float: right;
+    display: inline-flex;
+    margin-right: 1%; 
+
+}
+ul a{
+    margin-top: 0%;
+}
+li{  
+background-color: rgb(24, 23, 26);
+padding: 14px 4px 14px 14px;
+margin-top: -10px; 
+list-style: none;
+border: .1px solid;
+border-color: #232423; 
+border-radius: 0px 0px 4px 4px;
+}
+
+li:hover{
+    background-color: #2f302f;
+    color: #fff;
+    border-bottom-color: #a8a8a8;
+    transition:  border 0.1s linear 0.1s; 
+}
+ul hr{
+    display: none;
+}
+
+@media only screen and (max-width: 900px) {
+    #sideMenu{ 
+ margin-left: -270px;
+   }
+     #showHideMenu{
+         display: block;
+        margin-left: 5%;
+        margin-top: 14px;
+        position: absolute;
+        padding: 2px 5px;
+        background-color: #313131;
+        width: 25px;
+        height: 27px;
+        border: 1.5px solid;
+        border-color: rgb(148, 147, 148);
+        border-radius: 3px;
+        float: left; 
+        transition: border 0.2s linear 0.3s;
+      
+    }
+    #showHideMenu div{
+    width: 27px;
+    height: 4px;
+    background-color: rgb(202, 202, 202);
+    margin: 4px -1px;
+    border-radius: 4px;
+    transition: background 0.2s linear 0.3s;
+    }
+    #showHideMenu:hover{
+        background-color: rgb(65, 64, 64); 
+        box-shadow: #313131 0.1em 0.1em 0.1em 0.1em;
+        cursor: pointer;
+        border: 1.5px solid;
+    } 
+    #showHideMenu:hover div{
+        background-color: rgb(161, 161, 161); 
+            } 
+
+.logo{
+   margin-left: 25%;
+   height: 85%;
+   margin-top: 0.7%;
+  } 
+   ul{ 
+    margin: 0;
+    padding: 0px;
+    width: 240px; 
+    height: 100vh;
+    margin-top: 55px; 
+    position: absolute; 
+    display: list-item;
+    background-color: rgb(24, 23, 26);
+    box-shadow: #232923 0.0em 0.0em 0.1em 0.0em;
+    border-radius: 4px; 
+    
+}
+
+li{ 
+    list-style: none; 
+    margin: 0; 
+    border-color: rgb(36, 36, 36);
+}
+ 
+li:hover{
+    border-bottom-color: #161616;
+} 
+   ul hr{
+       display: block;
+   }
+  }

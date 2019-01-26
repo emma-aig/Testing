@@ -1,0 +1,47 @@
+#dataSection{
+    padding: 8px;
+    width: 60%;
+    margin: auto;
+}
+
+#dataCaption{
+    margin-top: 40px;
+    font-size: 23px;
+}
+.dataDiv{
+    margin-bottom: 13px;
+background-color: rgb(247, 247, 247); 
+}
+
+.dataDiv:hover{ 
+/* background-color: rgb(212, 211, 211);  */
+}
+.dataDiv span{ 
+padding: 19px 1px 1px 12px; 
+}
+
+.dataDiv span img{ 
+    width: 80px;
+    }
+    
+    .conditionalDiv{
+        padding: 13px;
+    }
+@media only screen and (max-width: 800px) { 
+    #dataSection{ 
+        width: 95%; 
+    }
+    
+.dataDiv span{
+display: block;
+}
+.dataDiv{
+    margin-bottom: 13px; 
+padding-bottom: 1px;
+border-radius: 8px;
+}
+
+.dataDiv span img{ 
+    width: 120px;
+    }
+}

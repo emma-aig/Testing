@@ -1,0 +1,153 @@
+html, body{
+    height: 100%;
+    margin: 0;
+    color: #585858;
+}
+body{
+    background-color: rgb(241, 241, 241);
+    font-family: sans-serif;
+   }
+   #cover{
+    /* margin-top: 45%; */
+    display: none;
+    /* background-color: rgba(22, 10, 92, 0.5); */
+    background-color: rgba(0, 0, 0, 0.5);
+   top: 0;
+    width: 100vw;
+    height: 100vh; 
+    position: fixed;
+    z-index: 1;
+    /* opacity: .9; */
+    /* transition: background 0.2s linear 0.3s; */
+
+}
+.landingCaptionPicture{ 
+    min-height: 100%;
+    padding: 0; 
+    width: 100%;  
+    background:url('../images/landing.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.landingCaption{ 
+    color: rgb(228, 228, 228);             
+    text-shadow: rgb(0, 0, 0) 0.0em 0.1em 0.3em;
+    width: 80%; 
+    margin: 0 auto; 
+    margin-top: 23px; 
+    font-size: 75px; 
+    font-weight: bold;
+    position: absolute; 
+    left: 0; right: 0;
+}
+
+.mainContainer{ 
+    width: 90%;
+    background-color: #fff;
+    margin: 0 auto;
+    margin-top: 55px;
+    border-radius: 0px 0px 5px 5px;
+}
+ 
+#firstSection, #secondSection, #thirdSection{
+padding: 5px;  
+}
+#firstSection div, #secondSection div, #thirdSection div{
+padding: 6px; 
+}
+.firstDiv, .secondDiv, .thirdDiv{
+width: 30%;
+float: left;
+margin: 10px; 
+}  
+
+#landingCaptionButtonsDiv{
+    width: 90%; 
+    margin-top: 253px; 
+    position: absolute; 
+   }
+#landingCaptionButtonsDiv div button{
+    margin: 0 auto;
+}
+
+button{
+background-color: #4995ec;
+color: #f1f1f1;
+border-radius: 7px;
+font-size: 24px;
+border: 0;
+}
+button:hover{
+background-color: #458ddf;
+    color: #f7f7f7;
+    cursor: pointer;
+}
+
+#landingCaptionButtonsDiv div button{
+width: 80%;
+height: 63px;
+box-shadow: #000 0.0em 0.2em 0.2em 0.0em;
+display: block;
+margin: 0 auto;
+opacity: 0.9;
+} 
+ 
+
+
+#secondSection{
+    clear: both;
+}
+#thirdSection{
+    clear: both;
+}
+
+/* .padBottom{
+    padding-bottom: 233px;
+} */
+
+@media only screen and (max-width: 800px) {
+    .mainContainer{ 
+        width: 99%;  
+    }
+    .firstDiv, .secondDiv, .thirdDiv{
+        width: 100%; 
+        }
+        .landingCaption{
+            color: rgb(228, 228, 228);             
+    /* text-shadow: #000 0.0em 0.2em 0.0em; */
+    font-weight: bold;
+            width: 60%; 
+            margin: 0 auto; 
+            margin-top: 40px; 
+            font-size: 37px; 
+            position: absolute; 
+            left: 0; right: 0;
+        }
+        #landingCaptionButtonsDiv div button{
+            width: 80%;      
+            height: 53px; 
+     }
+
+
+        .firstDiv img, .secondDiv img, .thirdDiv img{
+            width: 50%;  
+            margin: auto;
+            padding: 0px 0px 40px 0px;
+            } 
+}
+
+footer{
+    clear: both;
+    text-align: center;
+    padding: 45px 45px 0px 0px; 
+/* margin-top: 183px; */
+    background-color: rgb(46, 46, 46);
+    color: #afafaf;
+    height: 15%; 
+    bottom: 0;
+    left: 0;    
+}
+#footer{     
+margin-top: 193px;  
+}
